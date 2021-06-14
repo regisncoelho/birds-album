@@ -15,12 +15,12 @@ var speciesBirds = ["Colaptes melanochloros","Primolius maracana","Thamnophilus 
 var linkWiki = ["https://www.wikiaves.com.br/3445653","https://www.wikiaves.com.br/3435022","https://www.wikiaves.com.br/3445209","https://www.wikiaves.com.br/3862840","https://www.wikiaves.com.br/3862841","https://www.wikiaves.com.br/3445646"]
 
 document.querySelector('.button-arrow.-right').addEventListener('click',function (){
-    pixels = pixels - 100
+    pixels = pixels - 150
     document.querySelector('.elements').style = `transform: translateX(${pixels}px)`
 })
 
 document.querySelector('.button-arrow.-left').addEventListener('click',function (){
-    pixels = pixels + 100
+    pixels = pixels + 150
     document.querySelector('.elements').style = `transform: translateX(${pixels}px)`
 })
 
