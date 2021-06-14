@@ -1,0 +1,59 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    position: relative;
+}
+.carousel .button-arrow {
+    position: absolute;
+    bottom: 50px;
+}
+
+.carousel .button-arrow.-left {
+    left: 20px;
+}
+
+.carousel .button-arrow.-right {
+    right: 20px;
+}
+
+.carousel .items {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;   
+}
+
+.carousel .elements {
+    display: flex;
+    width: 100%;
+    transform: translateX(115px);
+    transition: transform 100ms ease-in-out;
+}
+
+.button-arrow {
+    background-color: #507C5D;
+    width: 3em;
+    height: 3em;
+    /* box-shadow: 3px 3px 0px rgb(46, 44, 44); */
+    cursor: pointer;
+}
+
+.button-arrow .content{
+    display: none;
+}
+
+.button-arrow::before {
+    display: block;
+    box-sizing: border-box;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 27px solid #fff;
+    transform: translateX(4px);
+}
+
+.button-arrow.-left::before {
+ transform: rotate(180deg) translateX(14px);
+}

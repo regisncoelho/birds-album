@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 04</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carousel.css">
+
+</head>
+<body>
+    <header class="page-header">
+        <h1 class="page-title">Aves da Mata Atlântica</h1>
+        <h2 class="page-subtitle">Monte seu próprio álbum de imagens</h2>
+    </header>
+
+    <section class="wrap-content carousel">
+        <button class="button-arrow -left"><span class="content">Retorna</span></button>
+        <div class="items">
+            <div class="elements">
+            </div>
+        </div>
+        <button class="button-arrow -right"><span class="content">Avança</span></button>
+    </section>
+    <section class="wrap-form">
+        <fieldset class="page-form">
+            <legend>Adicione uma ave ao mural</legend>
+            <div class="wrap-input">
+                <label for="urlImagem" class="page-label">Insira a url da imagem</label>
+                <input type="url" class="page-input" id="urlImagem" name="urlImagem">
+            </div>
+            <div class="wrap-input">
+                <label for="nomePopular" class="page-label">Insira nome popular</label>
+                <input type="text" name="nomePopular" id="nomePopular" class="page-input">
+            </div>
+            <div class="wrap-input">
+                <label for="nomeEspecie" class="page-label">Insira o nome científico</label>
+                <input type="text" class="page-input" id="nomeEspecie" name="nomeEspecie">
+            </div>
+            <div class="wrap-input">
+                <label for="urlFonte" class="page-label">Insira a url da fonte da imagem</label>
+                <input type="url" class="page-input" id="urlFonte" name="urlFonte">
+            </div>
+        </fieldset>
+        <button type="submit" class="addBirds">Adicionar</button>
+    </section>
+    
+    <footer class="page-footer">
+        <img src="assets/images/logo-imersao-aluraflix.webp" class="page-logo" alt="" width="150px">
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
