@@ -28,7 +28,7 @@ document.querySelector(".addBirds").addEventListener("click", addBirds)
 
 function mostrarAves() {
     for (var i = 0; i < imgAves.length; i++){  
-        var elementoAves = "<div class='polaroid'>" + "<a href=" + linkWiki[i] +" target='_blank'><img src=" + imgAves[i] +  "></a><br> <p>" + "<b>" + nameBirds[i] + "</b><small><i><br>" + speciesBirds[i] + "<br><small><small>Fonte: " + "<a href=" + linkWiki[i] + "'>" + linkWiki[i] + "</a></small></small></small></i></p></div>"
+        var elementoAves = "<div class='polaroid'>" + "<a href=" + linkWiki[i] +" target='_blank' rel='noopener' name='link para página fonte da imagem da ave'><img src='"+ imgAves[i] +  "' alt='Imagem da ave" + nameBirds[i] + ", fotografada por Régis A. Coelho. Mais informações no link'></a><br> <p>" + "<b>" + nameBirds[i] + "</b><small><i><br>" + speciesBirds[i] + "<br><small><small>Fonte: " + "<a href=" + linkWiki[i] + "'>" + linkWiki[i] + "</a></small></small></small></i></p></div>"
 
         document.querySelector(".elements").insertAdjacentHTML("beforeend",elementoAves)
         document.querySelector(".elements").style.transform = 'translateX(200px)'
