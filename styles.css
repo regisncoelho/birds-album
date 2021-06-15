@@ -61,7 +61,7 @@ body {
     width: auto;
     background-color: white;
     border: 10px solid white;
-    margin: 8px;
+    margin: 15px;
 }
 .polaroid  img {
     width: 15vw;
@@ -71,13 +71,14 @@ body {
     font-size: 0.9em;
 }
 .wrap-form{
-    margin-bottom: 1.5em;
-    margin-top: 2em;
+    margin-bottom: 3%;
+    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .page-form {
+    position: relative;
     background-color: #E8EEED;
     display: flex;
     justify-content: space-around;
@@ -93,12 +94,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-    height: 3.8em;
+    width: 23%;
 }
 legend {
     background-color: #507C5D;
-    color: #fff;
+    color: #E8EEED;
     padding: 3px 6px;
     font-family: inherit;
     font-size: 1em;
@@ -108,6 +108,7 @@ legend {
     font-size: 1.1em;
     font-family: inherit;
     font-weight: 300;
+    padding-left: 0.4em;
 }
 .page-input {
     padding-left: 5px;
@@ -131,14 +132,14 @@ legend {
 	border:1px solid transparent;
 	display:inline-block;
 	cursor:pointer;
-	color:#333;
+	color:#E8EEED;
 	font-family:inherit;
 	font-size: 1em;
 	font-weight:700;
 	padding:11px 23px;
 	text-decoration:none;
     min-width: 90px;
-    margin-top: 0.8em;
+    margin-top: 0.6em;
 }
 .addBirds:hover {
 	background:linear-gradient(to bottom, #82a08a 5%, #507C5D 100%);
@@ -151,6 +152,4 @@ legend {
 }
 .page-footer {
     text-align: center;
-    position: absolute;
-    right: 1%;
 }

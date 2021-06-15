@@ -27,7 +27,7 @@
 .carousel .elements {
     display: flex;
     width: 100%;
-    transform: translateX(115px);
+    transform: translateX(300px);
     transition: transform 150ms ease-in-out;
 }
 
