@@ -126,8 +126,7 @@ legend {
     border: 3px solid #555;
 }
 .addBirds {
-	background:linear-gradient(to bottom, #73A57B 5%, #b2e2be 100%);
-	background-color:#73A57B;
+	background-color: #73A57B;
 	border-radius:5px;
 	border:1px solid transparent;
 	display:inline-block;
@@ -142,13 +141,12 @@ legend {
     margin-top: 0.6em;
 }
 .addBirds:hover {
-	background:linear-gradient(to bottom, #b2e2be 5%, #73A57B 100%);
-	background-color:#b2e2be;
+	box-shadow: 1px 1px 3px #333333;
 }
 .addBirds:active {
 	position:relative;
 	top:1px;
-    box-shadow: 2px 2px 5px #333333;
+    box-shadow: 3px 3px 5px #333333;
 }
 .page-footer {
     text-align: center;
