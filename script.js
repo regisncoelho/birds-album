@@ -41,12 +41,12 @@ function addBirds() {
     html.innerHTML = ""
 
     var newImg = document.querySelector("#urlImagem").value
-    if (newImg.length > 0 | newImg.endswith('.jpg')) {
+    if (newImg.length > 0) {
         imgAves.push(newImg)
         const inputField = document.querySelector("#urlImagem")
         inputField.value = ""
     }
-    
+        
     var newName = document.querySelector("#nomePopular").value
     if (newName.length > 0) {
         nameBirds.push(newName)
@@ -68,7 +68,5 @@ function addBirds() {
         inputField4.value = ""
     }
 
-    
-    mostrarAves()
-    
+    mostrarAves()   
 }
