@@ -31,7 +31,7 @@ function mostrarAves() {
         var elementoAves = "<div class='polaroid'>" + "<a href=" + linkWiki[i] +" target='_blank'><img src=" + imgAves[i] +  "></a><br> <p>" + "<b>" + nameBirds[i] + "</b><small><i><br>" + speciesBirds[i] + "<br><small><small>Fonte: " + "<a href=" + linkWiki[i] + "'>" + linkWiki[i] + "</a></small></small></small></i></p></div>"
 
         document.querySelector(".elements").insertAdjacentHTML("beforeend",elementoAves)
-        document.querySelector(".elements").style.transform = 'translateX(150px)'
+        document.querySelector(".elements").style.transform = 'translateX(200px)'
     }
 }
 mostrarAves()
